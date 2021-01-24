@@ -78,12 +78,17 @@ h4{
     margin-bottom: 15px;
 }
 
-.secondLine a{
+.button{
     margin-top: 33px;
     display: inline-flex;
     padding: 20px 88px;
     background-color: #bfdf32;
     text-decoration: none;
     color: #FFF;
-    
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: #a0be18;
 }
