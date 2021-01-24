@@ -7,13 +7,14 @@
 body{
     background-color: #e6eff6;
     font-family: 'Karla', sans-serif;
-    padding: 20px;
+    padding: 20px 20px 40px;
     display: flex;
     width: 100vw;
     min-height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .container{
@@ -26,9 +27,10 @@ body{
 
 .container div{
     padding: 40px;
+    color: #FFF;
 }
 
-.firstLine{
+.container .firstLine{
     background-color: #FFF;
     color: hsl(216, 14%, 57%);
     font-size: 16px;
@@ -43,7 +45,7 @@ h3{
 
 h4{
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #FFF;
 }
 
@@ -61,4 +63,27 @@ h4{
     grid-row: 2 / 3;
     grid-column: 1 / 2;
     background-color: #2bb3b1;
+}
+
+.price span{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.secondLine .price{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+.secondLine a{
+    margin-top: 33px;
+    display: inline-flex;
+    padding: 20px 88px;
+    background-color: #bfdf32;
+    text-decoration: none;
+    color: #FFF;
+    
 }
