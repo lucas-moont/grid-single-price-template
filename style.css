@@ -81,12 +81,13 @@ h4{
 .button{
     margin-top: 33px;
     padding: 15px 93px;
-    display: block;
+    display: inline-flex;
     background-color: #bfdf32;
     text-decoration: none;
     color: #FFF;
     border-radius: 7px;
     transition: 0.5s;
+    text-align: center;
 }
 
 .button:hover{
@@ -104,4 +105,25 @@ h4{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 22px;
+}
+
+@media (max-width: 685px){
+    .container{
+        display: block;
+    }
+
+    .secondLine{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button{
+        align-self: center;
+    }
+}
+
+@media (max-width: 380px){
+    .button{
+        padding: 15px 40px;
+    }
 }
