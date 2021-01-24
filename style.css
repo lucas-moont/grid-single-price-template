@@ -80,15 +80,28 @@ h4{
 
 .button{
     margin-top: 33px;
-    display: inline-flex;
-    padding: 20px 88px;
+    padding: 15px 93px;
+    display: block;
     background-color: #bfdf32;
     text-decoration: none;
     color: #FFF;
-    border-radius: 10px;
+    border-radius: 7px;
     transition: 0.5s;
 }
 
 .button:hover{
     background-color: #a0be18;
+}
+
+.container .thirdLine{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #4abebd;
+}
+
+.container ul{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 22px;
 }
